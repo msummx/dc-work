@@ -23,10 +23,22 @@ while True:
     else:
         print('Invalid entry. Please enter good, fair or bad.') 
         continue
-    break   
+    break 
+
+#prompts for party info and creates loop until correct value type is input
+while True:
+    try:
+        party = float(input('Number of people paying: '))
+    except ValueError:
+        print('Please input number of people splitting the bill.')
+        continue
+    break
 
 #calculates total
 total = bill + tip
+#calculates amount per person
+perPerson = total / party
 #prints results
 print("The tip amount is: %.2f" % tip)
 print("The total amount is: %.2f" % total)
+print("The amount per person is: %.2f" % perPerson)
