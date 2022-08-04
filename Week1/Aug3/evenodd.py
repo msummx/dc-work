@@ -4,6 +4,7 @@ try:
 #Attempts to convert a user input string into integer
 except: 
     print('Invalid entry.')
+    exit()
 #Catches errors and prevents program from crashing.
 
 if number % 2 == 0:
