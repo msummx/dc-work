@@ -14,7 +14,6 @@ while True:
     if width <= 15 and width > 1:
         #ends loop
         break
-
     elif width <= 1:
         print('Invalid (MIN 2)')
         continue
