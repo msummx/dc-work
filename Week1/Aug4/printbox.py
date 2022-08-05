@@ -11,12 +11,12 @@ while True:
         #continues loop
         continue
     #checks that there is a positive value that caps at 15
-    if width <= 15 and width > 0:
+    if width <= 15 and width > 1:
         #ends loop
         break
 
-    elif width <= 0:
-        print('Invalid (MIN 1)')
+    elif width <= 1:
+        print('Invalid (MIN 2)')
         continue
     else:
         print('Invalid (MAX 15)')
@@ -34,11 +34,11 @@ while True:
         print('Invalid. Please enter a number.')
         #continues loop
         continue
-    if height <= 15 and height > 0:
+    if height <= 15 and height > 1:
         #ends loop
         break
-    elif height <= 0:
-        print('Invalid (MIN 1)')
+    elif height <= 1:
+        print('Invalid (MIN 2)')
         continue
     else:
         print('Invalid (MAX 15)')
