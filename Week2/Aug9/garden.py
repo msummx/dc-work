@@ -12,7 +12,7 @@ import random
 # Classes
 class Tree:
     def __init__(self):
-        self.chance = 15
+        self.chance = 10
         self.rain = 25
 
 # class FruitTree(Tree):
@@ -48,7 +48,7 @@ class Garden:
         self.waterLevel = 300
         self.waterLoss = 20
         self.rainChance = 25
-        self.woodchuckChance = 10
+        self.woodchuckChance = 5
         self.disappearingTreeChance = 0
         # self.fruit = 0
         hunt = Hunt()
