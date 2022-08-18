@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(243, 241, 235);
+}
+
+.navbar{
+    position: sticky;
+    background-color: whitesmoke;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    z-index: 3;
+}
+
+#logo{
+    justify-content: flex-start;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.search{
+    position: relative;
+    background-color: rgb(228, 239, 242);
+    height: 25px;
+    align-self: center;
+    opacity: 80%;
+}
+
+.navlink{
+    padding: 5px;
+    align-self: flex-end;
+    }
+
+.bodycontent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    background-color: whitesmoke;
+    max-width: 700px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+#genheader {
+    max-width: 700px;
+    height: auto;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 125px;
+    left: 200px;
+    border: 5px solid whitesmoke;
+}
+
+h2, h4{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+#about > p {
+    margin-bottom: 20px;
+}
+
+li{
+    margin-left:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
